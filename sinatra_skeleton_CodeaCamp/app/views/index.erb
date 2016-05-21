@@ -1,0 +1,78 @@
+  <h1>Bienvenido a Sinatra!</h1>
+  <p>Este es un esqueleto de sinatra que armamos para ti</p>
+
+  <h3>Este formulario se envía por metodo get</h3>
+
+    <div style="border:5px solid #2b90d9; border-radius:10px; padding:30px;">
+      <form method="get" action="/cool_url">
+        <div>Ingresa tu nombre:</div>
+        <br>
+        <input type="text" name="nombre"> 
+
+        <br><br>
+
+        <div>Ingresa tu Nacionalidad:</div>
+        <br>
+        <input type="text" name="nacionalidad"> 
+
+        <br> <br>
+        <button>Enviar</button>
+      </form>
+    </div>
+
+      <br> <br>
+
+
+       <h3>Este formulario se envía por metodo post</h3>
+  <div style="border:5px solid #2b90d9; border-radius:10px;padding:30px;">
+    <form method="post" action="/cool_url">
+
+        <div>Cual es tu comida favorita?</div>
+        <br>
+        <input type="text" name="post[food]"> 
+
+        <br><br>
+
+        <div>Que edad tienes?</div>
+        <br>
+        <input type="text" name="post[edad]"> 
+        <br> <br>
+
+        <div>Soy un textarea</div>
+        <textarea name="text" rows="5" placeholder="Ingresa un mensaje"></textarea>
+
+        <br><br>
+
+        <div>Soy un Radio Bottom</div><br>
+        <input type="radio" value="Femenino" name="gender">Femenino <br>
+        <input type="radio" value="Masculino" name="gender"> Masculino <br>
+
+        <br>
+
+        <div>Hobbies (checkbox)</div><br>
+        <input type="checkbox" name="hobbie[1]" value="Music">Musica<br>
+        <input type="checkbox" name="hobbie[2]" value="Read">Leer<br>
+        <input type="checkbox" name="hobbie[3]" value="Bike">Bicicleta<br><br>
+
+        <div>Lenguaje de Programación(Select)</div><br>
+
+        <select name="Lenguaje">
+        <option value="Ruby">Ruby</option>
+        <option value="Java">Java</option>
+        <option value="Php">Php</option>
+        </select>
+
+        <br><br>
+        <button>Enviar</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
